@@ -1,0 +1,11 @@
+{
+  "short_fixture": true,
+  "training_samples": 4096,
+  "segment_boundaries": [
+    2560,
+    4608
+  ],
+  "completed_steps": 4608,
+  "checkpoint_reload_between_segments": true,
+  "passed": true
+}

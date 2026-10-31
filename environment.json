@@ -1,0 +1,13 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "packages": {
+    "gymnasium": "1.4.0",
+    "mujoco": "3.16.0",
+    "stable-baselines3": "2.9.0",
+    "torch": "2.14.1",
+    "numpy": "2.2.6",
+    "imageio": "2.38.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "note": "matplotlib is needed by standing analysis/plotting; its original installed version is not recorded"
+}

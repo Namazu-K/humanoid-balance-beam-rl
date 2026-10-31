@@ -1,0 +1,13 @@
+{
+  "entries": [
+    "01_train_stand_initial.py",
+    "02_train_stand_relaxed.py",
+    "03_train_flat_walk.py",
+    "04_train_flat_speed.py",
+    "05_train_flat_log.py",
+    "06_train_beam_gaussian.py"
+  ],
+  "sequential_handoff_checked": true,
+  "completed_smoke_checkpoints_reused": true,
+  "new_training_started": false
+}

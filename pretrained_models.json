@@ -1,0 +1,56 @@
+[
+  {
+    "phase": "01_stand_initial",
+    "environment": "flat_standing",
+    "steps": 2000896,
+    "file": "models/01_stand_initial_2000896.zip",
+    "sha256": "f79749e17dbe6b6892b5f438f11f31c3a4b4c0ffb26558cbedb2e56922dd24c0",
+    "original_model": "/root/rope/results/flat_scratch_2000k.zip",
+    "historical_checkpoint": true
+  },
+  {
+    "phase": "02_stand_relaxed",
+    "environment": "flat_standing",
+    "steps": 5500928,
+    "file": "models/02_stand_relaxed_5500928.zip",
+    "sha256": "4fd33d53b163edb95f055dcba9b1f3d043add596191736d294317bbdbe2bd413",
+    "original_model": "/root/rope/results/v5_to_10m/model_5500k.zip",
+    "historical_checkpoint": true
+  },
+  {
+    "phase": "03_flat_walk",
+    "environment": "flat_walk",
+    "steps": 34502656,
+    "file": "models/03_flat_walk_34502656.zip",
+    "sha256": "d2ec7916cd00d46d03f42dba1094b737fe20f148e2e61ea581368786312aebae",
+    "original_model": "/root/rope/results/flat100_goal_walk/n8_5500k/step_34502656.zip",
+    "historical_checkpoint": true
+  },
+  {
+    "phase": "04_flat_speed",
+    "environment": "flat_walk",
+    "steps": 39503872,
+    "file": "models/04_flat_speed_39503872.zip",
+    "sha256": "e38e7852c75c49930bd5750b7e5d74c2fd20c223d1c1dfaee631f29ac6e7dc1f",
+    "original_model": "/root/rope/results/flat100_speed_straight/n16_from34502656_5m/step_39503872.zip",
+    "historical_checkpoint": true
+  },
+  {
+    "phase": "05_flat_log",
+    "environment": "flat_walk",
+    "steps": 64507904,
+    "file": "models/05_flat_log_64507904.zip",
+    "sha256": "daa3701586262e935c3aa2f595a4e12c457c0f370b8348f6f42c8a9fa05b2798",
+    "original_model": "/root/rope/results/current_log_continue_20m/training/step_64507904.zip",
+    "historical_checkpoint": true
+  },
+  {
+    "phase": "06_beam_gaussian",
+    "environment": "beam",
+    "steps": 92508160,
+    "file": "models/06_beam_gaussian_92508160.zip",
+    "sha256": "97ae74d591620f5e241ef5e41dcd8e7470d6fa07bdcc4929c285446f1b5a41cf",
+    "original_model": "/root/rope/results/gaussian_ramp/from64507904_30m/training/step_92508160.zip",
+    "historical_checkpoint": true
+  }
+]

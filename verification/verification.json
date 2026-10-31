@@ -1,0 +1,82 @@
+{
+  "smoke_phases": [
+    {
+      "phase": "01_stand_initial",
+      "steps": 128,
+      "shape": [
+        359
+      ],
+      "transfer": "standing_359",
+      "envs": 1,
+      "smoke": true
+    },
+    {
+      "phase": "02_stand_relaxed",
+      "steps": 256,
+      "shape": [
+        359
+      ],
+      "transfer": "standing_359",
+      "envs": 1,
+      "smoke": true
+    },
+    {
+      "phase": "03_flat_walk",
+      "steps": 384,
+      "shape": [
+        366
+      ],
+      "transfer": "standing_359_to_366_fresh_optimizer",
+      "envs": 2,
+      "smoke": true
+    },
+    {
+      "phase": "04_flat_speed",
+      "steps": 512,
+      "shape": [
+        366
+      ],
+      "transfer": "direct_366",
+      "envs": 2,
+      "smoke": true
+    },
+    {
+      "phase": "05_flat_log",
+      "steps": 640,
+      "shape": [
+        366
+      ],
+      "transfer": "direct_366",
+      "envs": 2,
+      "smoke": true
+    },
+    {
+      "phase": "06_beam_gaussian",
+      "steps": 768,
+      "shape": [
+        366
+      ],
+      "transfer": "direct_366",
+      "envs": 2,
+      "smoke": true
+    }
+  ],
+  "log_equivalence": {
+    "v7": {
+      "backend": "v7",
+      "steps": 300,
+      "observation_and_reward_sha256": "685f635e3aa2873da44d9c51e57099fbed218ed106b3b9df35d512e18aa1e92f",
+      "reward_sum": -35.242471526962206
+    },
+    "v8": {
+      "backend": "v8",
+      "steps": 300,
+      "observation_and_reward_sha256": "685f635e3aa2873da44d9c51e57099fbed218ed106b3b9df35d512e18aa1e92f",
+      "reward_sum": -35.242471526962206
+    },
+    "identical": true
+  },
+  "resume_completed_stages_checked": true,
+  "full_training_executed": false,
+  "scope": "Short connectivity and reward-equivalence checks; no long-run performance claim."
+}
